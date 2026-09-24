@@ -1,5 +1,5 @@
 import css from './Sidebar.module.css'
-import img from '../../assets/hero.jpg'
+import img from '../../assets/hero.png'
 import type { currentLangSidebar } from '../../types/currentLang';
 
 interface SideBarProps {
@@ -9,7 +9,7 @@ export default function Sidebar({ currentLanguage }:SideBarProps) {
   return(
   <aside className={css.sidebar}>
       <section className={css.photo_wrap}>
-        <img src={img} alt="Portrait" className={"photo"} width={400}/>
+        <img src={img} alt="Portrait" className={"photo"} width={320}/>
       </section>
 
       <section className={css.sidebar_inner}>
@@ -21,15 +21,20 @@ export default function Sidebar({ currentLanguage }:SideBarProps) {
 
         <h4 className={css.sidebar_section}>Tech Skills</h4>
         <ul className={css.skill_list}>
+          <p>Web:</p>
           <li>HTML5</li>
           <li>CSS3</li>
-          <li>GIT basics</li>
-          <li>JavaScript/TypeScript</li>
           <li>PHP</li>
-          <li>MySQL</li>
+          <li>JavaScript/TypeScript</li>
           <li>React</li>
           <li>Next.js</li>
+          <p>Backend/Databases:</p>
           <li>Node.js</li>
+          <li>SQL</li>
+          <p>Tools</p>
+          <li>GIT basics</li>
+          <li>GitHub</li>
+          <li>VS Code</li>
         </ul>
 
         <h4 className={css.sidebar_section}>Soft Skills</h4>

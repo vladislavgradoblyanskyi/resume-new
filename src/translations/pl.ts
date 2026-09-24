@@ -1,8 +1,8 @@
 const pl = {
     sidebarContact: "Kontakt",
-    sidebarSoftSkills: ["Ukraiński - ojczysty", "Rosyjski - C1/C2", "Angielski - B1/B2", "Praca w zespole"],
+    sidebarSoftSkills: ["Ukraiński - ojczysty", "Rosyjski - C1/C2","Polski - B1/B2", "Angielski - B1/B2", "Praca w zespole"],
     mainRole: "Programista Fullstack",
-    mainSummary: "Uczeń technikum programistycznego, poszukujący możliwości odbycia praktyk zawodowych w branży IT. Zmotywowany do nauki nowych technologii, rozwoju umiejętności programistycznych i zdobycia praktycznego doświadczenia w rzeczywistym środowisku pracy.",
+    mainSummary: "Jestem uczniem technikum na kierunku technik programista i interesuję się programowaniem oraz nowymi technologiami. Szukam możliwości odbycia praktyki zawodowej w firmie IT, aby zdobyć doświadczenie, rozwijać umiejętności i poznać pracę w profesjonalnym zespole. Jestem zaangażowany, odpowiedzialny i chętny do nauki. Szybko przyswajam nowe informacje i z zaangażowaniem podejmuję się nowych zadań. Praktykę traktuję jako pierwszy krok do kariery w IT. Chciałbym rozwijać się w firmie również po jej zakończeniu, np. poprzez dalszy staż, pracę dodatkową lub zatrudnienie na stanowisku juniorskim.",
     mainProjects: "Projekty",
     mainProjectList: ["Projekty z własnego zakresu", "Projekty realizowane w zespole"],
     mainEducation: "Edukacja",
@@ -23,7 +23,7 @@ const pl = {
         data: "22.09.2025 – 03.10.2025",
     },
     mainEducationCourse2: {
-        school: "Kurs Python Software Engineering",
+        school: "Kurs Python Software Engineering – GoIT",
         qualification: "Dodatkowa wiedza z zakresu Python Software Development",
         data: "24.09.2026 – Obecnie",
     },

@@ -34,22 +34,22 @@ export default function Main({ setLanguage, currentLanguage }: MainProps) {
                 <ul className={css.project_list}>
                     <p>{currentLanguage.mainProjectList[0]}</p>
                     <li>
-                        <a href="https://github.com/vladislavgradoblyanskyi/project1" target="_blank" >
-                            https://github.com/vladislavgradoblyanskyi/project1
+                        <a href="https://vladislavgradoblyanskyi.github.io/project1/" target="_blank" >
+                            https://vladislavgradoblyanskyi.github.io/project1/
                         </a>
                     </li>
 
                     <p>{currentLanguage.mainProjectList[1]}</p>
 
                     <li>
-                        <a href="https://github.com/vladislavgradoblyanskyi/Team-Project" target="_blank">
-                            https://github.com/vladislavgradoblyanskyi/Team-Project
+                        <a href="https://vladislavgradoblyanskyi.github.io/Team-Project/" target="_blank">
+                            https://vladislavgradoblyanskyi.github.io/Team-Project/
                         </a>
                     </li>
 
                     <li>
-                        <a href="https://github.com/vladislavgradoblyanskyi/pets_founder" target="_blank" >
-                            https://github.com/vladislavgradoblyanskyi/pets_founder
+                        <a href="https://vladislavgradoblyanskyi.github.io/pets_founder/" target="_blank" >
+                            https://vladislavgradoblyanskyi.github.io/pets_founder/
                         </a>
                     </li>
 
@@ -60,8 +60,8 @@ export default function Main({ setLanguage, currentLanguage }: MainProps) {
                     </li>
 
                     <li>
-                        <a href="https://github.com/vladislavgradoblyanskyi/wild-travels" target="_blank">
-                            https://github.com/vladislavgradoblyanskyi/wild-travels
+                        <a href="https://wild-travels-rust.vercel.app/" target="_blank">
+                            https://wild-travels-rust.vercel.app/
                         </a>
                     </li>
                 </ul>
@@ -80,7 +80,7 @@ export default function Main({ setLanguage, currentLanguage }: MainProps) {
 
                 <p className={css.meta}>
                     {currentLanguage.mainEducationTechnical.data}
-                    <span className="sep"> | </span> Polska
+                    <span className="sep"> | </span> Poland
                 </p>
             </section>
 
@@ -114,7 +114,7 @@ export default function Main({ setLanguage, currentLanguage }: MainProps) {
 
                 <p className={css.meta}>
                     {currentLanguage.mainEducationIntership.data}
-                    <span className="sep"> | </span> offline
+                    <span className="sep"> | </span> Greece
                 </p>
             </section>
 
