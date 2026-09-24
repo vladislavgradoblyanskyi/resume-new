@@ -214,3 +214,84 @@
     transform: translateY(0);
 }
 
+@media screen and (max-width: 500px) {
+    .content {
+        padding: 32px 24px;
+        min-height: auto;
+    }
+    .intro {
+        padding-bottom: 28px;
+    }
+    .name {
+        font-size: 36px;
+        line-height: 1.1;
+        letter-spacing: -0.5px;
+        overflow-wrap: anywhere;
+    }
+    .summary {
+        font-size: 15px;
+        line-height: 1.6;
+    }
+
+    .projects,
+    .education {
+        padding: 26px 0;
+    }
+
+    .projects h2,
+    .experience h2,
+    .education h2 {
+        font-size: 20px;
+    }
+
+    .project_list li {
+        display: block;
+        padding: 12px;
+    }
+
+    .project_list a {
+        display: block;
+        max-width: 100%;
+        white-space: normal;
+        overflow: visible;
+        text-overflow: unset;
+        overflow-wrap: anywhere;
+    }
+
+    .project_list .tags {
+        display: block;
+        margin: 8px 0 0;
+        white-space: normal;
+    }
+
+    .job {
+        padding: 16px;
+        margin: 16px 0 22px;
+    }
+
+    .school {
+        font-size: 15px;
+    }
+
+    .degree {
+        font-size: 13px;
+    }
+
+    .meta {
+        font-size: 12px;
+    }
+
+    .zainteresowania {
+        gap: 8px;
+    }
+
+    .zainteresowania li {
+        font-size: 12px;
+        padding: 7px 11px;
+    }
+
+    .lang_buttons {
+        justify-content: flex-start;
+        margin-bottom: 24px;
+    }
+}

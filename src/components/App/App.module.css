@@ -1,9 +1,27 @@
 .page_wrap{
-  width:var(--max-width);
-  background:var(--card-bg);
-  display:grid;
-  grid-template-columns: var(--sidebar-w) 1fr;
+  width: 768px;
+  max-width: 100%;
+  background: var(--card-bg);
+  display: flex;
+  flex-direction: column;
   box-shadow: 0 10px 30px rgba(15,20,25,0.08);
-  border-radius:2px;
-  overflow:hidden;
+  border-radius: 2px;
+  overflow: hidden;
+}
+
+@media screen and (min-width: 1080px) {
+    .page_wrap {
+        flex-direction: row;
+        width: var(--max-width);
+        max-width: calc(100% - 40px);
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .page_wrap {
+        width: 100%;
+        max-width: 100%;
+        border-radius: 0;
+        box-shadow: none;
+    }
 }
