@@ -9,7 +9,7 @@ export default function Sidebar({ currentLanguage }:SideBarProps) {
   return(
   <aside className={css.sidebar}>
       <section className={css.photo_wrap}>
-        <img src={img} alt="Portrait" width={375}/>
+        <img src={img} alt="Portrait" width={380}/>
       </section>
 
       <section className={css.sidebar_inner}>
