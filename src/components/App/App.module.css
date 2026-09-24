@@ -1,0 +1,9 @@
+.page_wrap{
+  width:var(--max-width);
+  background:var(--card-bg);
+  display:grid;
+  grid-template-columns: var(--sidebar-w) 1fr;
+  box-shadow: 0 10px 30px rgba(15,20,25,0.08);
+  border-radius:2px;
+  overflow:hidden;
+}
