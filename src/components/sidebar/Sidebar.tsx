@@ -1,5 +1,5 @@
 import css from './Sidebar.module.css'
-import img from '../../assets/hero.png'
+import img from '../../assets/hero.jpg'
 import type { currentLangSidebar } from '../../types/currentLang';
 
 interface SideBarProps {
@@ -9,7 +9,7 @@ export default function Sidebar({ currentLanguage }:SideBarProps) {
   return(
   <aside className={css.sidebar}>
       <section className={css.photo_wrap}>
-        <img src={img} alt="Portrait" className={"photo"}/>
+        <img src={img} alt="Portrait" className={"photo"} width={400}/>
       </section>
 
       <section className={css.sidebar_inner}>
