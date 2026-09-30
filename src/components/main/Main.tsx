@@ -1,5 +1,7 @@
 import type { Language } from '../../types/currentLang';
 import type {currentLangMain} from '../../types/currentLang';
+import certificate from '../../assets/Vladyslav Hradoblianskyi.pdf'
+import qualification from '../../assets/certyfikat_kwalifikacji_zawodowej.pdf'
 import css from './Main.module.css';
 
 interface MainProps {
@@ -80,7 +82,9 @@ export default function Main({ setLanguage, currentLanguage }: MainProps) {
 
                 <p className={css.meta}>
                     {currentLanguage.mainEducationTechnical.data}
-                    <span className="sep"> | </span> Poland
+                    <span className={css.sep}> | </span>Poland 
+                    <span className={css.sep}>·</span>
+                        <a href={qualification} target="_blank" rel="noreferrer" className={css.certificate}>View certificate</a>
                 </p>
             </section>
 
@@ -99,7 +103,9 @@ export default function Main({ setLanguage, currentLanguage }: MainProps) {
 
                 <p className={css.meta}>
                     {currentLanguage.mainEducationCourseGoIT.data}
-                    <span className="sep"> | </span> online
+                    <span className={css.sep}> | </span> online
+                    <span className={css.sep}>·</span>
+                        <a href={certificate} target="_blank" rel="noreferrer" className={css.certificate}>View certificate</a>
                 </p>
             </section>
 
@@ -114,7 +120,7 @@ export default function Main({ setLanguage, currentLanguage }: MainProps) {
 
                 <p className={css.meta}>
                     {currentLanguage.mainEducationIntership.data}
-                    <span className="sep"> | </span> Greece
+                    <span className={css.sep}> | </span> Greece
                 </p>
             </section>
 
@@ -129,7 +135,7 @@ export default function Main({ setLanguage, currentLanguage }: MainProps) {
 
                 <p className={css.meta}>
                     {currentLanguage.mainEducationCourse2.data}
-                    <span className="sep"> | </span>
+                    <span className={css.sep}> | </span>
                     online
                 </p>
             </section>
