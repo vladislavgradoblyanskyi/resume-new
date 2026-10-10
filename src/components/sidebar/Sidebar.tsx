@@ -21,15 +21,13 @@ export default function Sidebar({ currentLanguage }:SideBarProps) {
 
         <h4 className={css.sidebar_section}>Tech Skills</h4>
         <ul className={css.skill_list}>
-          <p>Web:</p>
-          <li>HTML5</li>
-          <li>CSS3</li>
-          <li>PHP</li>
+          <p>Frontend:</p>
+          <li>HTML5, CSS3</li>
+          <li>JavaScript, TypeScript</li>
           <li>JavaScript/TypeScript</li>
-          <li>React</li>
-          <li>Next.js</li>
+          <li>React, Next.js</li>
           <p>Backend/Databases:</p>
-          <li>Node.js</li>
+          <li>Node.js, PHP</li>
           <li>SQL</li>
           <p>Tools</p>
           <li>GIT basics</li>
@@ -42,6 +40,14 @@ export default function Sidebar({ currentLanguage }:SideBarProps) {
             {currentLanguage.sidebarSoftSkills.map((skill) => (
                         <li key={skill}>
                             {skill}
+                        </li>
+                    ))}
+        </ul>
+        <h4 className={css.sidebar_section}>{currentLanguage.sidebarLangsName}</h4>
+        <ul className={css.skill_list}>
+            {currentLanguage.sidebarLangs.map((lang) => (
+                        <li key={lang}>
+                            {lang}
                         </li>
                     ))}
         </ul>

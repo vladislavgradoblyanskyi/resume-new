@@ -37,6 +37,8 @@ export interface currentLangMain {
 export interface currentLangSidebar {
        sidebarContact: string;
        sidebarSoftSkills: string[];
+       sidebarLangsName: string;
+       sidebarLangs: string[];
    }
 
 export type Language = "pl" | "en" | "ua";

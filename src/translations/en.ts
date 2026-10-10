@@ -1,8 +1,10 @@
 const en = {
     sidebarContact: "Contacts",
-    sidebarSoftSkills: ["Ukrainian - native","Russian - C1/C2","Polish - B1/B2","English - B1/B2","Teamwork"],
+    sidebarSoftSkills: ["Teamwork","responsibility", "attention to detail", "adaptability"],
+    sidebarLangsName:"Languages",
+    sidebarLangs: ["Ukrainian — native","Russian — C1/C2","Polish — B1/B2","English — B1/B2"],
     mainRole: "Fullstack Developer",
-    mainSummary: "I am a technical school student specializing in programming, with a strong interest in software development and new technologies. I am looking for an internship in an IT company to gain real-world experience, develop my skills, and learn how a professional IT team works. I am responsible, motivated, and eager to learn. I quickly adapt to new information and enjoy taking on new challenges. I see the internship as the first step toward a career in IT and would be interested in continuing cooperation with the company after completing it.",
+    mainSummary: "I am a technical school student specializing in software development, with a strong interest in programming and new technologies. I am looking for an internship at an IT company to gain practical experience and improve my skills. I am responsible, motivated, and a quick learner. I would like to continue developing my skills within the company after the internship, for example through further training or a junior developer position.",
     mainProjects:"Projects",
     mainProjectList:["Personal Projects","Team Projects"],
     mainEducation:"Education",
