@@ -1,3 +1,10 @@
+interface projects
+{
+    name:string;
+    live:string;
+    github:string;
+    description:string;
+}
 export interface currentLangMain {
         mainRole: string;
         mainSummary: string;
@@ -11,7 +18,8 @@ export interface currentLangMain {
             qualification: string;
             data: string;
         };
-
+        myprojects: projects[];
+        teamprojects:projects[];
         mainEducationCourseGoIT: {
             school: string;
             qualification: string;

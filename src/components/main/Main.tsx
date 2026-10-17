@@ -3,6 +3,7 @@ import type {currentLangMain} from '../../types/currentLang';
 import certificate from '../../assets/Vladyslav Hradoblianskyi.pdf'
 import qualification from '../../assets/certyfikat_kwalifikacji_zawodowej.pdf'
 import css from './Main.module.css';
+import Projects from '../Projects_section/Projects_section';
 
 interface MainProps {
     setLanguage: (lang: Language) => void;
@@ -33,40 +34,7 @@ export default function Main({ setLanguage, currentLanguage }: MainProps) {
             <section className={css.projects}>
                 <h2>{currentLanguage.mainProjects}</h2>
 
-                <ul className={css.project_list}>
-                    <p>{currentLanguage.mainProjectList[0]}</p>
-                    <li>
-                        <a href="https://vladislavgradoblyanskyi.github.io/project1/" target="_blank" >
-                            https://vladislavgradoblyanskyi.github.io/project1/
-                        </a>
-                    </li>
-
-                    <p>{currentLanguage.mainProjectList[1]}</p>
-
-                    <li>
-                        <a href="https://vladislavgradoblyanskyi.github.io/Team-Project/" target="_blank">
-                            https://vladislavgradoblyanskyi.github.io/Team-Project/
-                        </a>
-                    </li>
-
-                    <li>
-                        <a href="https://vladislavgradoblyanskyi.github.io/pets_founder/" target="_blank" >
-                            https://vladislavgradoblyanskyi.github.io/pets_founder/
-                        </a>
-                    </li>
-
-                    <li>
-                        <a href="https://github.com/vladislavgradoblyanskyi/wild-travels-Backend" target="_blank" >
-                            https://github.com/vladislavgradoblyanskyi/wild-travels-Backend
-                        </a>
-                    </li>
-
-                    <li>
-                        <a href="https://wild-travels-rust.vercel.app/" target="_blank">
-                            https://wild-travels-rust.vercel.app/
-                        </a>
-                    </li>
-                </ul>
+                <Projects currentLanguage={currentLanguage}/>
             </section>
 
             <section className={css.education}>
